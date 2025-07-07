@@ -60,7 +60,7 @@ Amazon-Product-Sentiment-Analysis/
    - TF-IDF vectorization of cleaned text reviews
 
 3. **Model Building**
-   - Using Multinomial Naive Bayes Classifier
+   - Using Random Forest Classifier
    - Train-test split and model evaluation
 
 4. **Evaluation Metrics**
