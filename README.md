@@ -12,16 +12,17 @@ Customer feedback on e-commerce platforms like Amazon provides valuable insights
 
 ## 📂 Project Structure
 
+```
 Amazon-Product-Sentiment-Analysis/
 │
 ├── data/
-│ └── AmazonProductReviewsData.tsv
+│   └── AmazonProductReviewsData.tsv
 ├── notebooks/
-│ └── Amazon Product Sentiment Analysis.ipynb
+│   └── Amazon Product Sentiment Analysis.ipynb
 ├── requirements.txt
 ├── .gitignore
 ├── README.md
-
+```
 
 ---
 
@@ -39,9 +40,9 @@ Amazon-Product-Sentiment-Analysis/
 - **Programming Language:** Python
 - **Libraries Used:**
   - `pandas`, `numpy`
-  - `sklearn`
+  - `scikit-learn`
   - `re`, `string`
-  - `nltk` (for stopword removal and text processing)
+  - `nltk`
 
 ---
 
@@ -73,7 +74,7 @@ Amazon-Product-Sentiment-Analysis/
 
 - **Model Used**: Random Forest Classifier
 - **Accuracy**: ~83%
-- **Observations**: Balanced performance across all three sentiment classes.
+- **Observations**: Balanced performance across all three sentiment classes
 
 ---
 
@@ -81,7 +82,41 @@ Amazon-Product-Sentiment-Analysis/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/Amazon-Product-Sentiment-Analysis.git
+   git clone https://github.com/sourav-003/PM-Sentiment-Analysis-Project.git
    cd Amazon-Product-Sentiment-Analysis
+   ```
+
+2. Create and activate a virtual environment:
+   ```bash
+   python -m venv venv
+   venv\Scripts\activate   # For Windows
+   ```
+
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Launch Jupyter Notebook:
+   ```bash
+   jupyter notebook
+   ```
+
+---
+
+## 🙏 Acknowledgements
+
+Special thanks to **Kumar Sundram Sir** and **LearnBay** for their constant guidance and support throughout the project.
+
+---
+
+## 📬 Contact
+
+- **Author**: [Sourav Kumar](https://github.com/sourav-003)
+- **LinkedIn**: [Sourav Kumar](https://www.linkedin.com/in/sourav-kumar-5814341b8)
+
+---
+
+⭐ *If you found this project helpful, don't forget to leave a ⭐ on the repository!*
 
 
