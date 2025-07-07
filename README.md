@@ -6,7 +6,7 @@ This project focuses on analyzing customer reviews from Amazon to determine the 
 
 ## 📌 Project Overview
 
-Customer feedback on e-commerce platforms like Amazon provides valuable insights into user satisfaction and product performance. This project performs sentiment classification on product reviews using **NLP preprocessing** and a **Multinomial Naive Bayes classifier**.
+Customer feedback on e-commerce platforms like Amazon provides valuable insights into user satisfaction and product performance. This project performs sentiment classification on product reviews using **NLP preprocessing** and a **Random Forest Classifier**.
 
 ---
 
@@ -51,9 +51,9 @@ Amazon-Product-Sentiment-Analysis/
 1. **Data Cleaning & Preprocessing**
    - Dropping null values
    - Mapping star ratings to sentiment labels:
-     - Ratings 1–2 → Negative
-     - Rating 3 → Neutral
-     - Ratings 4–5 → Positive
+     - Ratings Compound Score < -0.05 → Negative
+     - Rating Compound Score -0.05 and 0.05 → Neutral
+     - Ratings Compound Score > 0.05 → Positive
    - Text normalization (lowercasing, punctuation & stopword removal)
 
 2. **Feature Extraction**
